@@ -124,6 +124,8 @@ const Component = {
       this.resetState()
       this.params = params
       const group = this.params.group
+      // eslint-disable-next-line no-console
+      console.log(`group: ${group}`)
       if(group !== this.group) {
         return
       }
