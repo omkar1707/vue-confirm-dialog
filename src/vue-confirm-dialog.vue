@@ -78,6 +78,11 @@ const Component = {
       params: {}
     }
   },
+  props: {
+    group: {
+      type: String,
+    }
+  },
   methods: {
     resetState() {
       this.password = null
@@ -118,6 +123,10 @@ const Component = {
     open(params) {
       this.resetState()
       this.params = params
+      const group = this.params.group
+      if(group !== this.group) {
+        return
+      }
       this.isShow = true
       // set params to dialog state
       Object.entries(params).forEach(param => {
