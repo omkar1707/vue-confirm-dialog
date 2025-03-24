@@ -9,7 +9,6 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "webpack-cli": "^3.2.3",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-latest": "^6.0.0",
@@ -20,7 +19,8 @@
     "sass-loader": "^5.0.1",
     "vue-loader": "^11.1.4",
     "vue-template-compiler": "^2.6.10",
-    "webpack": "^2.2.0",
-    "webpack-dev-server": "^3.1.11"
+    "webpack": "^2.7.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
   }
 }
